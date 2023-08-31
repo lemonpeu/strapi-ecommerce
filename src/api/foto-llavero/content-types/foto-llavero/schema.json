@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "foto_llaveros",
+  "info": {
+    "singularName": "foto-llavero",
+    "pluralName": "foto-llaveros",
+    "displayName": "foto-llavero"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "llaveros": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
