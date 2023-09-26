@@ -4,7 +4,8 @@
   "info": {
     "singularName": "foto-llavero",
     "pluralName": "foto-llaveros",
-    "displayName": "foto-llavero"
+    "displayName": "foto-llavero",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,14 +13,20 @@
   "pluginOptions": {},
   "attributes": {
     "llaveros": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "product": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.keychain"
     }
   }
 }
