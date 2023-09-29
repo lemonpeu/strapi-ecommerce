@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "charms",
+  "info": {
+    "singularName": "charm",
+    "pluralName": "charms",
+    "displayName": "Charm"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Charms": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product.keychain"
+    }
+  }
+}
